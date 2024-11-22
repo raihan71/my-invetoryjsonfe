@@ -14,7 +14,7 @@ const ListComponent = () => {
     }, []);
 
     const fetchProducts = async() => {
-        await axios.get(`https://myinventory-be.vercel.app/products`, {
+        await axios.get(`https://my-invetoryjsonbe.vercel.app`, {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
