@@ -20,7 +20,7 @@ const ListComponent = () => {
                 'Content-Type': 'application/json'
             }
         }).then(({data})=>{
-            setProducts(data);
+            setProducts(data.products);
         });
     };
 
